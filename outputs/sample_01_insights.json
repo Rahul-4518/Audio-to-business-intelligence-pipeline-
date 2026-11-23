@@ -1,0 +1,327 @@
+{
+    "source": "audio_samples/sample.mp3",
+    "processed_at": "2026-07-01T09:46:10.262316",
+    "summary": "So, you know, 11 years into the journey, I feel like I can breathe a little and say like, you know, we were a little ahead of the time in terms of thinking about defense and the role of AI and autonomy and defense. And that's really what you're seeing in the defense industry and the opportunity for these defense tech companies is you have these legacy assets where now this generation of smaller, more affordable assets can do the exact same mission. Had Ukraine been able to put up, you know, even hundreds of thousands of drones on their border, you know, a week before Russia decided to invade it, I promise you that Putin would not have invaded. Now, shield AI will claim is this isn't just like a lot of, you know, leverage of the existing tools we've had to build a lot of stuff ourselves, but the stuff that we have built have made us faster than any company in the world that building AI pilots, getting them flying and getting them on the battlefield. I mean, I suppose you experienced that when you were a soldier too about sort of how you were being deployed.",
+    "entities": {
+        "PERSON": [
+            "Bob",
+            "Elias",
+            "Brandon Seng",
+            "Brandon",
+            "Bob Safian",
+            "Rapid Response",
+            "Ryan",
+            "Shield AI",
+            "Peter Levine",
+            "Peter",
+            "F-16s",
+            "Genie",
+            "V-Bat",
+            "Houthis",
+            "Henry Ford",
+            "Putin",
+            "Elon Musk",
+            "Bill Kirk",
+            "Joe Fuller",
+            "Kristen Silberg",
+            "Sal Khan",
+            "Ben Smith",
+            "Max Tani",
+            "Mixed Signals",
+            "Rana Elkhaubi",
+            "Shield AI's",
+            "Brandon Sang",
+            "Alex Morris",
+            "Aaron Bastinelli",
+            "Brian Pugh",
+            "Ryan Holiday",
+            "Lee Tal Malod"
+        ],
+        "DATE": [
+            "October 20 through 22nd",
+            "1302",
+            "the next five years",
+            "Today",
+            "less than two weeks",
+            "Four years ago",
+            "18 months",
+            "a decade ago",
+            "2015",
+            "11 years",
+            "2013",
+            "2014",
+            "this century",
+            "2035",
+            "2040",
+            "2045",
+            "these days",
+            "October 2023",
+            "the end of the day",
+            "the next 100 years",
+            "today",
+            "a week",
+            "Friday",
+            "the past 75 years",
+            "last year",
+            "every single day",
+            "the past 70 years",
+            "every day"
+        ],
+        "GPE": [
+            "San Francisco",
+            "Georgia",
+            "America",
+            "AI",
+            "Ukraine",
+            "Afghanistan",
+            "Brandon",
+            "Gaza",
+            "The United States",
+            "Iran",
+            "Washington DC",
+            "China",
+            "Russia",
+            "Spotify",
+            "Semicormedia",
+            "US",
+            "USA",
+            "the United States",
+            "Taiwan",
+            "India",
+            "Netherlands"
+        ],
+        "ORG": [
+            "Navy",
+            "Air Force Navy",
+            "Shield AI",
+            "Shield",
+            "US Navy",
+            "Andrison Horowitz",
+            "Stanford",
+            "Harvard Business School",
+            "the Department of War,",
+            "Department of Defense",
+            "the US Air Force",
+            "AI",
+            "US Department of War",
+            "NATO",
+            "Starlink",
+            "Brandon",
+            "the Future of Work",
+            "Business Round",
+            "Khan Academy Founders",
+            "the Future of Work on",
+            "Apple Podcasts",
+            "Microsoft",
+            "YouTube",
+            "Masha Makutonina"
+        ],
+        "MONEY": [
+            "almost $13 billion",
+            "about $40 million",
+            "$1 million",
+            "$40 million",
+            "about a million dollars"
+        ],
+        "PRODUCT": [
+            "the V-Bat"
+        ]
+    },
+    "events": [
+        {
+            "event_type": "Investment",
+            "sentence": "We started with the murder investigation of this woman who was tortured and they cut off her fingers and then eventually killed her and she was killed",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "And then we followed the investigation and she realized that they're everywhere and particularly like to operate in small town America.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "Every modern military is going to proclaim a million drone army Air Force Navy rank or powered by AI and autonomy within the next five years.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "Shield AI is valued at almost $13 billion.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "Look, I'll tell you actually fun, quick story, Peter Levine from Andrison Horowitz sits on our board, incredible investor, also a Stanford professor.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "He's like, yeah, I just invest in dumb companies.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "And I just invested in the dumbest idea yet.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "I was like, I heard you just invest in dumb ideas.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "He's like, yes, I did say I just invest in dumb ideas.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "Predator drones, reaper drones, they cost about $40 million.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "We had 26 of them shot down by the Houthis, $1 million weapon system blowing up a $40 million aircraft in the conflict against Iran.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "And when they get shot down, you're losing a $40 million asset and you cannot quickly produce it to get another one out the door, even if you had the ",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "And so V-Bat does that same mission for about a million dollars, right?",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Product Launch",
+            "sentence": "Our V-Bat is vertical takeoff launch in land.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "I have to say that for some folks like the vision of millions of drones flying around overhead can sound a bit terrifying.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "Our adversaries have invested in countering the carrier strike group.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "They have invested in long range anti-ship missiles that just go further than our current deterrents mechanisms go.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "It is going to be millions of drones, right?",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "I would make an estimate that every country, every modern military is going to proclaim a million drone army Air Force Navy rank war within the next f",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Leadership Change",
+            "sentence": "Look, as a former Navy CEO that has had to make the moral decision about the use of lethal force on the battlefield, I fundamentally believe that that",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Market Expansion",
+            "sentence": "From artificial intelligence to the gig economy to global volatility, the economy is changing at a dizzying pace.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "With more than two and a half million downloads and close to 300 episodes, there is something for everyone.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "As an AI scientist, entrepreneur, and investor, I know what it takes to build AI that works for everyone.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Market Expansion",
+            "sentence": "Now we talk about China's military advances with AI, trusting the US military and its allies to use AI appropriately and whether global unrest benefit",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Leadership Change",
+            "sentence": "I've had conversations with several CEOs recently who were talking about the prowess of China's technology.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Market Expansion",
+            "sentence": "I don't think people recognize or appreciate that American military dominance has been the prerequisite for the global world order that has enabled so",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Market Expansion",
+            "sentence": "One of the bugaboo's about the US defense industry always is being that like, people say, well, it benefits from global unrest.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Partnership",
+            "sentence": "You know, and they push back from the US government about who you partner with, things you have to navigate?",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Market Expansion",
+            "sentence": "I think it was like two thirds of our revenue last year was international.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Partnership",
+            "sentence": "The answer is like, one, we work with our partners and allies.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Partnership",
+            "sentence": "But again, I'm going back to defense export and why we work with these allies and partners.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Partnership",
+            "sentence": "But the reason why we partner them is because we say, hey, it's better that they align with the USA.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "I would stress out more over like losing investors money.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "They're like, look, an investor, they have lots of information.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "So yeah, especially the early investors took myself.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Market Expansion",
+            "sentence": "Not just for shield, but for all of us for global defense right now, where we go from here.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Market Expansion",
+            "sentence": "What's at stake is the global world order.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Investment",
+            "sentence": "Like if if China came out and said, hey, we're building 100 million drone army powered by AI and autonomy, they would terrify the US.",
+            "confidence": 0.75
+        },
+        {
+            "event_type": "Product Launch",
+            "sentence": "And I don't put it past them to make that announcement at some point in the future.",
+            "confidence": 0.75
+        }
+    ]
+}

@@ -1,0 +1,608 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Audio Business Intelligence Pipeline</title>
+
+<style>
+
+body{
+font-family:Segoe UI;
+background:#0f172a;
+color:white;
+padding:30px;
+}
+
+.container{
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+background:#1e293b;
+padding:20px;
+margin-bottom:20px;
+border-radius:12px;
+box-shadow:0 0 10px rgba(0,0,0,.3);
+}
+
+.metric{
+display:inline-block;
+width:180px;
+padding:15px;
+margin:8px;
+background:#334155;
+border-radius:10px;
+text-align:center;
+}
+
+.metric h2{
+color:#38bdf8;
+margin:0;
+}
+
+.metric p{
+margin:5px;
+}
+
+.event{
+padding:12px;
+background:#0f172a;
+margin-top:10px;
+border-left:5px solid #38bdf8;
+}
+
+.entity{
+padding:8px;
+margin:6px;
+background:#334155;
+border-radius:6px;
+}
+
+pre{
+white-space:pre-wrap;
+font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🎙 Audio Business Intelligence Pipeline</h1>
+
+<div class="card">
+
+<div class="metric">
+<h2>5092</h2>
+<p>Total Words</p>
+</div>
+
+<div class="metric">
+<h2>111</h2>
+<p>Total Entities</p>
+</div>
+
+<div class="metric">
+<h2>6</h2>
+<p>Entity Types</p>
+</div>
+
+<div class="metric">
+<h2>39</h2>
+<p>Business Events</p>
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>📄 Summary</h2>
+
+<p>So, you know, 11 years into the journey, I feel like I can breathe a little and say like, you know, we were a little ahead of the time in terms of thinking about defense and the role of AI and autonomy and defense. And that's really what you're seeing in the defense industry and the opportunity for these defense tech companies is you have these legacy assets where now this generation of smaller, more affordable assets can do the exact same mission. Had Ukraine been able to put up, you know, even hundreds of thousands of drones on their border, you know, a week before Russia decided to invade it, I promise you that Putin would not have invaded. Now, shield AI will claim is this isn't just like a lot of, you know, leverage of the existing tools we've had to build a lot of stuff ourselves, but the stuff that we have built have made us faster than any company in the world that building AI pilots, getting them flying and getting them on the battlefield. I mean, I suppose you experienced that when you were a soldier too about sort of how you were being deployed.</p>
+
+</div>
+
+<div class="card">
+
+<h2>🏢 Extracted Entities</h2>
+<h3>PERSON</h3><div class='entity'>Bob</div><div class='entity'>Elias</div><div class='entity'>Brandon Seng</div><div class='entity'>Brandon</div><div class='entity'>Bob Safian</div><div class='entity'>Rapid Response</div><div class='entity'>Ryan</div><div class='entity'>Shield AI</div><div class='entity'>Peter Levine</div><div class='entity'>Peter</div><div class='entity'>F-16s</div><div class='entity'>Genie</div><div class='entity'>V-Bat</div><div class='entity'>Houthis</div><div class='entity'>Henry Ford</div><div class='entity'>Putin</div><div class='entity'>Elon Musk</div><div class='entity'>Bill Kirk</div><div class='entity'>Joe Fuller</div><div class='entity'>Kristen Silberg</div><div class='entity'>Sal Khan</div><div class='entity'>Ben Smith</div><div class='entity'>Max Tani</div><div class='entity'>Mixed Signals</div><div class='entity'>Rana Elkhaubi</div><div class='entity'>Shield AI's</div><div class='entity'>Brandon Sang</div><div class='entity'>Alex Morris</div><div class='entity'>Aaron Bastinelli</div><div class='entity'>Brian Pugh</div><div class='entity'>Ryan Holiday</div><div class='entity'>Lee Tal Malod</div><h3>DATE</h3><div class='entity'>October 20 through 22nd</div><div class='entity'>1302</div><div class='entity'>the next five years</div><div class='entity'>Today</div><div class='entity'>less than two weeks</div><div class='entity'>Four years ago</div><div class='entity'>18 months</div><div class='entity'>a decade ago</div><div class='entity'>2015</div><div class='entity'>11 years</div><div class='entity'>2013</div><div class='entity'>2014</div><div class='entity'>this century</div><div class='entity'>2035</div><div class='entity'>2040</div><div class='entity'>2045</div><div class='entity'>these days</div><div class='entity'>October 2023</div><div class='entity'>the end of the day</div><div class='entity'>the next 100 years</div><div class='entity'>today</div><div class='entity'>a week</div><div class='entity'>Friday</div><div class='entity'>the past 75 years</div><div class='entity'>last year</div><div class='entity'>every single day</div><div class='entity'>the past 70 years</div><div class='entity'>every day</div><h3>GPE</h3><div class='entity'>San Francisco</div><div class='entity'>Georgia</div><div class='entity'>America</div><div class='entity'>AI</div><div class='entity'>Ukraine</div><div class='entity'>Afghanistan</div><div class='entity'>Brandon</div><div class='entity'>Gaza</div><div class='entity'>The United States</div><div class='entity'>Iran</div><div class='entity'>Washington DC</div><div class='entity'>China</div><div class='entity'>Russia</div><div class='entity'>Spotify</div><div class='entity'>Semicormedia</div><div class='entity'>US</div><div class='entity'>USA</div><div class='entity'>the United States</div><div class='entity'>Taiwan</div><div class='entity'>India</div><div class='entity'>Netherlands</div><h3>ORG</h3><div class='entity'>Navy</div><div class='entity'>Air Force Navy</div><div class='entity'>Shield AI</div><div class='entity'>Shield</div><div class='entity'>US Navy</div><div class='entity'>Andrison Horowitz</div><div class='entity'>Stanford</div><div class='entity'>Harvard Business School</div><div class='entity'>the Department of War,</div><div class='entity'>Department of Defense</div><div class='entity'>the US Air Force</div><div class='entity'>AI</div><div class='entity'>US Department of War</div><div class='entity'>NATO</div><div class='entity'>Starlink</div><div class='entity'>Brandon</div><div class='entity'>the Future of Work</div><div class='entity'>Business Round</div><div class='entity'>Khan Academy Founders</div><div class='entity'>the Future of Work on</div><div class='entity'>Apple Podcasts</div><div class='entity'>Microsoft</div><div class='entity'>YouTube</div><div class='entity'>Masha Makutonina</div><h3>MONEY</h3><div class='entity'>almost $13 billion</div><div class='entity'>about $40 million</div><div class='entity'>$1 million</div><div class='entity'>$40 million</div><div class='entity'>about a million dollars</div><h3>PRODUCT</h3><div class='entity'>the V-Bat</div>
+</div>
+
+<div class="card">
+
+<h2>📈 Business Events</h2>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+We started with the murder investigation of this woman who was tortured and they cut off her fingers and then eventually killed her and she was killed
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+And then we followed the investigation and she realized that they're everywhere and particularly like to operate in small town America.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+Every modern military is going to proclaim a million drone army Air Force Navy rank or powered by AI and autonomy within the next five years.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+Shield AI is valued at almost $13 billion.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+Look, I'll tell you actually fun, quick story, Peter Levine from Andrison Horowitz sits on our board, incredible investor, also a Stanford professor.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+He's like, yeah, I just invest in dumb companies.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+And I just invested in the dumbest idea yet.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+I was like, I heard you just invest in dumb ideas.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+He's like, yes, I did say I just invest in dumb ideas.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+Predator drones, reaper drones, they cost about $40 million.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+We had 26 of them shot down by the Houthis, $1 million weapon system blowing up a $40 million aircraft in the conflict against Iran.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+And when they get shot down, you're losing a $40 million asset and you cannot quickly produce it to get another one out the door, even if you had the 
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+And so V-Bat does that same mission for about a million dollars, right?
+
+</div>
+
+<div class="event">
+
+<b>Product Launch</b>
+
+(75%)
+
+<br><br>
+
+Our V-Bat is vertical takeoff launch in land.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+I have to say that for some folks like the vision of millions of drones flying around overhead can sound a bit terrifying.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+Our adversaries have invested in countering the carrier strike group.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+They have invested in long range anti-ship missiles that just go further than our current deterrents mechanisms go.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+It is going to be millions of drones, right?
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+I would make an estimate that every country, every modern military is going to proclaim a million drone army Air Force Navy rank war within the next f
+
+</div>
+
+<div class="event">
+
+<b>Leadership Change</b>
+
+(75%)
+
+<br><br>
+
+Look, as a former Navy CEO that has had to make the moral decision about the use of lethal force on the battlefield, I fundamentally believe that that
+
+</div>
+
+<div class="event">
+
+<b>Market Expansion</b>
+
+(75%)
+
+<br><br>
+
+From artificial intelligence to the gig economy to global volatility, the economy is changing at a dizzying pace.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+With more than two and a half million downloads and close to 300 episodes, there is something for everyone.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+As an AI scientist, entrepreneur, and investor, I know what it takes to build AI that works for everyone.
+
+</div>
+
+<div class="event">
+
+<b>Market Expansion</b>
+
+(75%)
+
+<br><br>
+
+Now we talk about China's military advances with AI, trusting the US military and its allies to use AI appropriately and whether global unrest benefit
+
+</div>
+
+<div class="event">
+
+<b>Leadership Change</b>
+
+(75%)
+
+<br><br>
+
+I've had conversations with several CEOs recently who were talking about the prowess of China's technology.
+
+</div>
+
+<div class="event">
+
+<b>Market Expansion</b>
+
+(75%)
+
+<br><br>
+
+I don't think people recognize or appreciate that American military dominance has been the prerequisite for the global world order that has enabled so
+
+</div>
+
+<div class="event">
+
+<b>Market Expansion</b>
+
+(75%)
+
+<br><br>
+
+One of the bugaboo's about the US defense industry always is being that like, people say, well, it benefits from global unrest.
+
+</div>
+
+<div class="event">
+
+<b>Partnership</b>
+
+(75%)
+
+<br><br>
+
+You know, and they push back from the US government about who you partner with, things you have to navigate?
+
+</div>
+
+<div class="event">
+
+<b>Market Expansion</b>
+
+(75%)
+
+<br><br>
+
+I think it was like two thirds of our revenue last year was international.
+
+</div>
+
+<div class="event">
+
+<b>Partnership</b>
+
+(75%)
+
+<br><br>
+
+The answer is like, one, we work with our partners and allies.
+
+</div>
+
+<div class="event">
+
+<b>Partnership</b>
+
+(75%)
+
+<br><br>
+
+But again, I'm going back to defense export and why we work with these allies and partners.
+
+</div>
+
+<div class="event">
+
+<b>Partnership</b>
+
+(75%)
+
+<br><br>
+
+But the reason why we partner them is because we say, hey, it's better that they align with the USA.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+I would stress out more over like losing investors money.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+They're like, look, an investor, they have lots of information.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+So yeah, especially the early investors took myself.
+
+</div>
+
+<div class="event">
+
+<b>Market Expansion</b>
+
+(75%)
+
+<br><br>
+
+Not just for shield, but for all of us for global defense right now, where we go from here.
+
+</div>
+
+<div class="event">
+
+<b>Market Expansion</b>
+
+(75%)
+
+<br><br>
+
+What's at stake is the global world order.
+
+</div>
+
+<div class="event">
+
+<b>Investment</b>
+
+(75%)
+
+<br><br>
+
+Like if if China came out and said, hey, we're building 100 million drone army powered by AI and autonomy, they would terrify the US.
+
+</div>
+
+<div class="event">
+
+<b>Product Launch</b>
+
+(75%)
+
+<br><br>
+
+And I don't put it past them to make that announcement at some point in the future.
+
+</div>
+
+
+</div>
+
+<div class="card">
+
+<h2>📝 Transcript</h2>
+
+<pre>
+
+ Hey, everyone. Bob here. If you care about navigating change at the highest level, we have a terrific opportunity for you. The Masters of Scale Summit returns October 20 through 22nd in San Francisco. It's our most curated gathering of leaders making consequential decisions in real time. The room is intentional. The dialogue is candid and access like this is rare. Apply now to attend at MastersofScale.com slash response. That's MastersofScale.com slash response. I've been wanted to do a story about cartel presence in Elias. We started with the murder investigation of this woman who was tortured and they cut off her fingers and then eventually killed her and she was killed by the cartel and it was in the middle of nowhere in Georgia. And then we followed the investigation and she realized that they're everywhere and particularly like to operate in small town America. If you want to hear how cartels hide in plain sight, check out episode 1302 of the Jordan Harbinger Show. As a former Navy SEAL that has had to make the moral decision about the use of lethal force on the battlefield, I fundamentally believe that that decision is 100% a human decision. Every modern military is going to proclaim a million drone army Air Force Navy rank or powered by AI and autonomy within the next five years. Today, a team of two engineers using our developer tools can build an AI pilot for a one-way attack drone in less than two weeks. Four years ago, that would have taken 150 engineers 18 months. That's Brandon Seng, co-founder and president of Shield AI. Shield is a leading maker of autonomous military technology. It's drones and software and use from Ukraine to the Middle East. I wanted to talk with Brandon about the boom underway for defense tech firms and the rising debate over AI in warfare. Brandon is a former US Navy SEAL who deployed in Afghanistan and he shares both his optimism and areas of concern when it comes to autonomy on the battlefield. Wherever you stand on the use of AI in modern warfare, Brandon gives us a timely glimpse into a high-stakes reality with escalating impact. So let's get to it. I'm Bob Safian and this is Rapid Response. I'm Bob Safian. I'm here with Brandon Seng, president of Shield AI. Brandon, thanks so much for being here. Thanks, Bob. Yeah, you started Shield AI with your brother Ryan, a little over a decade ago after serving as a Navy SEAL officer. You'd play twice in Afghanistan. Saw firsthand how robots could gather until more safely. For a while, the defense tech was kind of shunned, particularly in Silicon Valley, sort of concerned about autonomous weapons. That's changed. Shield AI is valued at almost $13 billion. Do you feel vindicated? Or you still feel underappreciated? You know, it's funny. I would actually say, you know, defense tech quote unquote didn't exist in 2015. People couldn't even shun it if it didn't, you know, no one was talking about it. Look, I'll tell you actually fun, quick story, Peter Levine from Andrison Horowitz sits on our board, incredible investor, also a Stanford professor. He gave a gas lecture when I was at Harvard Business School. He's like, yeah, I just invest in dumb companies. And I just invested in the dumbest idea yet. And that dumbest idea was Shield AI, called Peter up. I was like, I heard you just invest in dumb ideas. He's like, yes, I did say I just invest in dumb ideas. He's like, it's a dumb idea to get into a car with a stranger, right? That's Uber, right? It's a dumb idea to stay at a stranger's house, Airbnb. He's like, everybody knows it's a really dumb idea to work with the government, right? To build defense. He's like, now, two things are going to happen. Either one, you guys are going to fail and it will prove to be a dumb idea or you guys will be successful. And everybody will say, oh, that was a really clever idea. So, you know, 11 years into the journey, I feel like I can breathe a little and say like, you know, we were a little ahead of the time in terms of thinking about defense and the role of AI and autonomy and defense. But yeah, maybe a little bit vindicated. It's still a long way to go. So, your autonomous military tech is being used in Ukraine against the Russians. It's been used in Gaza by the Israelis. The core product is a software called hive mind that allows drones and other vehicles to operate without a human in the loop and without GPS. Was that the dumb idea? Was this the capability and the impact that you were aiming for? So, the original vision, and so my background, I'm an engineer, just have always been fascinated by technology. It was reading a lot about AI and autonomy in 2013, 2014, 2015. And came to the, you know, realization that the world is going to be full of autonomous systems, self-driving cars, humanoid robots, self-driving airplanes, like what Shield AI does are really tip of the iceberg. I would claim that within this century, you will see autonomous systems outnumber human beings on the planet. And the impacts of that are going to be incredible. I think there's going to be massive positive impact. And I wanted to be a part of that. And then it came about like, okay, what problems can I solve? And I just kept coming back to the problems that I had faced and decided that every single military asset by 2035 should be powered, commanded, maneuvered by an artificial intelligence. And so that was the original vision for the company. And, you know, look, I don't think probably not every military system by 2035. Maybe it takes to 2040 or 2045, but it's unstoppable momentum at this stage of the game. There is tremendous excitement around AI. There is also distrust around AI these days. I mean, Shield AI is in perhaps like the highest stakes arena as evidenced by the controversy between anthropic and the Department of War, Department of Defense. What are people most misunderstand about the role of AI in modern warfare? A lot of people, their minds immediately go right to the sci-fi dystop
+
+</pre>
+
+</div>
+
+</div>
+
+</body>
+
+</html>
